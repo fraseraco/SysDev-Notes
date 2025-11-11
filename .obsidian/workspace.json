@@ -201,6 +201,7 @@
   },
   "active": "5d57be5c4cefc046",
   "lastOpenFiles": [
+    "directory_structure.txt",
     "901_Templates/DailySummary-{{date}}.md",
     "901_Templates/WeeklySummary-{{date}}.md",
     "020_Refactor-Plans/Decisions/decision_log.md",

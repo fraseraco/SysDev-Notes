@@ -1,0 +1,55 @@
+.
+├── 000_General
+│   ├── 001_Inbox
+│   │   ├── Quick-Capture
+│   │   └── To-Sort
+│   ├── 002_People
+│   ├── 003_Processes-Methodology
+│   └── IT Systems Developer — Master Thread.md
+├── 010_Codebase-Analysis
+│   ├── Codebase Analysis & Documentation (Discovery).md
+│   └── Investigations
+├── 020_Refactor-Plans
+│   └── Decisions
+│       └── decision_log.md
+├── 030_Architecture-Designs
+│   ├── Diagrams
+│   └── Specifications
+├── 03_Architecture_Designs
+├── 040_Knowledge-Base
+│   ├── Books
+│   ├── Cheatsheets
+│   ├── Code-Snippets
+│   ├── KB-Entries
+│   └── Reference-Links
+├── 050_Reports
+│   ├── 051_Daily-Reports
+│   ├── 052_Weekly-Reports
+│   └── 053_Monthly-Reports
+├── 060_Greenfield
+│   ├── Greenfield Projects & Strategic Visibility.md
+│   ├── Internal Systems Modernization Proposal.md
+│   └── Project-Ideas
+├── 070_Personal-Development
+│   ├── Learning Goals.md
+│   ├── Mentorship Notes.md
+│   ├── Performance Review Prep.md
+│   └── Reading List.md
+├── 901_Templates
+│   ├── DailySummary-{{date}}.md
+│   └── WeeklySummary-{{date}}.md
+├── 902_Meta-Organization-System
+│   └── Meta Dashboard.md
+├── 999_Archive
+│   ├── Completed-Projects
+│   ├── Deprecated-Docs
+│   ├── Old-Meetings
+│   └── Reports
+├── directory_structure.txt
+├── IT Operations & Support (Overview).md
+├── Learning & Professional Development.md
+├── Naming Convention Reference Sheet.md
+├── Refactor & Rebuild Planning.md
+└── Untitled.md
+
+35 directories, 18 files
