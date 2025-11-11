@@ -13,13 +13,13 @@ version: "1.0"
 
 # 🔧 IT Operations & Support
 
-## 🎯 Objective
+##  Objective
 Handle day-to-day technical support tasks efficiently while using patterns, documentation, and automation to reduce recurring effort.  
 Ensure consistent service quality, minimize interruptions, and improve IT visibility through process maturity and data-driven improvements.
 
 ---
 
-## 📍 Scope
+##  Scope
 **Includes**
 - Level 1/2 troubleshooting for internal staff (hardware, software, access)
 - Ticket handling, escalation, and communication workflows
@@ -34,7 +34,7 @@ Ensure consistent service quality, minimize interruptions, and improve IT visibi
 
 ---
 
-## 🧭 Strategy
+## Strategy
 1. **Triage smartly** — resolve what’s within scope, escalate quickly when needed.  
 2. **Document once, reuse often** — turn every solved issue into a KB entry or script.  
 3. **Automate repetitive tasks** — reduce manual fixes through scripting and self-service tools.  
@@ -43,23 +43,23 @@ Ensure consistent service quality, minimize interruptions, and improve IT visibi
 
 ---
 
-## 🧩 Support Workflow
+##  Support Workflow
 
-### 1️⃣ Intake
+### 1. Intake
 - Ticket created (email, portal, chat, etc.)
 - Categorize (hardware, access, network, software, account)
 - Assign priority (P1 critical → P4 minor)
 
-### 2️⃣ Diagnose
+### 2. Diagnose
 - Gather context (user, device, location, last-known-good)
 - Check KB for existing solutions
 - Verify reproducibility
 
-### 3️⃣ Resolve or Escalate
+### 3. Resolve or Escalate
 - **Resolve:** Fix and document steps  
 - **Escalate:** Forward with full context (error logs, actions tried, screenshots)
 
-### 4️⃣ Document & Close
+### 4. Document & Close
 - Log fix steps in ticket
 - Add or update KB entry
 - Confirm resolution with user
@@ -67,29 +67,29 @@ Ensure consistent service quality, minimize interruptions, and improve IT visibi
 
 ---
 
-## 📊 Ticket Categories
-| Category | Examples | Owner | Notes |
-|-----------|-----------|--------|-------|
-| Access Issues | Password resets, MFA problems | You | Common – automation target |
-| Hardware | Monitors, peripherals, laptops | Support Tech | Coordinate for replacements |
-| Network | Wi-Fi, VLAN, cabling | Support / Networking | Capture before/after metrics |
-| Software | Application errors, permissions | You | Tie fixes to codebase when relevant |
-| Misc / Requests | "Can you install..." etc. | You | Triage; route as needed |
+## Ticket Categories
+| Category        | Examples                        | Owner | Notes                               |
+| --------------- | ------------------------------- | ----- | ----------------------------------- |
+| Access Issues   | Password resets, MFA problems   |       | Common – automation target          |
+| Hardware        | Monitors, peripherals, laptops  |       | Coordinate for replacements         |
+| Network         | Wi-Fi, VLAN, cabling            |       | Capture before/after metrics        |
+| Software        | Application errors, permissions |       | Tie fixes to codebase when relevant |
+| Misc / Requests | "Can you install..." etc.       |       | Triage; route as needed             |
 
 ---
 
-## ⚙️ Automation Opportunities
-| Area | Current Pain | Proposed Solution | Priority |
-|------|---------------|------------------|-----------|
-| Password resets | Manual, repeated | Self-service portal or script | High |
-| User provisioning | Manual setup | Template-based script (AD or app DB) | High |
-| Device onboarding | Inconsistent | Preconfigured imaging or setup checklist | Medium |
-| Reporting | Manual counts | Scripted summary from ticket DB | Medium |
-| Common installs | Repetitive | Batch installer or config mgmt | Low |
+## Automation Opportunities
+| Area                      | Current Pain     | Proposed Solution                            | Priority |
+| ------------------------- | ---------------- | -------------------------------------------- | -------- |
+| (example) Password resets | Manual, repeated | Self-service portal or script                | High     |
+| User provisioning         |                  | ~~Template-based script (AD or app DB)~~     |          |
+| Device onboarding         |                  | ~~Preconfigured imaging or setup checklist~~ |          |
+| Reporting                 |                  | ~~Scripted summary from ticket DB~~          |          |
+| Common installs           |                  | ~~Batch installer or config mgmt~~           |          |
 
 ---
 
-## 🧰 Knowledge Base Plan
+## Knowledge Base Plan
 ### Folder Structure (within vault or internal wiki)
 
 ```
@@ -125,7 +125,7 @@ Prevention:
 
 ---
 
-## 🧪 Metrics & Reporting
+## Metrics & Reporting
 | Metric | Description | Goal | Frequency |
 |---------|-------------|------|------------|
 | Tickets Resolved | Number closed per week | Baseline | Weekly |
@@ -138,7 +138,7 @@ Prevention:
 
 ---
 
-## 🚨 Escalation Guidelines
+## Escalation Guidelines
 | Severity | Description | Response | Escalation Target |
 |-----------|--------------|-----------|--------------------|
 | **P1** | System outage / multiple users down | Immediate | CTO / Senior IT Support |
@@ -148,7 +148,7 @@ Prevention:
 
 ---
 
-## 🧩 Example SOPs
+## Example SOPs
 - **Password Reset SOP** – Verify identity → Reset → Log → Notify  
 - **Hardware Swap SOP** – Document serials → Replace → Verify config → Close ticket  
 - **Network Drop SOP** – Ping test → Trace route → Verify VLAN → Escalate if persistent  
@@ -156,7 +156,7 @@ Prevention:
 
 ---
 
-## 🧠 Quick Scripts to Build
+## Quick Scripts to Build
 | Script | Purpose | Language | Priority |
 |--------|----------|-----------|----------|
 | `reset_user_pw.php` | Reset local app passwords | PHP CLI | High |
@@ -166,7 +166,7 @@ Prevention:
 
 ---
 
-## 📅 3-Month Operations Roadmap
+## 3-Month Operations Roadmap
 | Month | Focus | Deliverables |
 |--------|--------|--------------|
 | **Month 1** | Documentation & ticket flow | KB skeleton + SOP templates |
@@ -175,7 +175,7 @@ Prevention:
 
 ---
 
-## 🧭 Success Criteria
+## Success Criteria
 - Reduced ticket turnaround time by measurable %  
 - ≥1 new automation per quarter  
 - 90%+ ticket closure satisfaction (internal survey)  
@@ -184,7 +184,7 @@ Prevention:
 
 ---
 
-## ✅ Next Actions
+## Next Actions
 - [ ] Build initial KB folder and populate 3 entries  
 - [ ] Map current support workflows and escalation paths  
 - [ ] Identify repetitive tasks suitable for scripting  
@@ -193,7 +193,7 @@ Prevention:
 
 ---
 
-## 🔗 Related
+## Related
 - [[IT Systems Developer — Master Thread]]
 - [[Codebase Analysis & Documentation]]
 - [[Refactor & Rebuild Planning]]

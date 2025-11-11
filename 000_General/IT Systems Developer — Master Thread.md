@@ -31,7 +31,7 @@ The **Developer role** involves modernizing and rebuilding an internal PHP-based
 - [[Refactor & Rebuild Planning]]
 - [[Greenfield Projects & Strategic Visibility]]
 - [[Learning & Professional Development]]
-- [[IT Operations & Support]]
+- [[IT Operations & Support (Overview)]]
 
 ---
 

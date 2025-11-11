@@ -37,7 +37,7 @@ Projects should align with:
 
 **Excludes**
 - Refactoring or maintenance of legacy systems (see [[Refactor & Rebuild Planning]])  
-- Routine IT support (see [[IT Operations & Support]])
+- Routine IT support (see [[IT Operations & Support (Overview)]])
 
 ---
 
@@ -175,4 +175,4 @@ Operational or security considerations.
 - [[Refactor & Rebuild Planning]]
 - [[Codebase Analysis & Documentation]]
 - [[Learning & Professional Development]]
-- [[IT Operations & Support]]
+- [[IT Operations & Support (Overview)]]

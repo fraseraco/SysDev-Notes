@@ -30,7 +30,7 @@ Develop strong proficiency in PHP and its ecosystem, deepen understanding of web
 
 **Excludes**
 - Stack-specific rebuild plans (see [[Refactor & Rebuild Planning]])
-- Routine ticketing or operational support (see [[IT Operations & Support]])
+- Routine ticketing or operational support (see [[IT Operations & Support (Overview)]])
 
 ---
 
@@ -165,4 +165,4 @@ Use this after each major learning sprint:
 - [[Codebase Analysis & Documentation]]
 - [[Refactor & Rebuild Planning]]
 - [[Greenfield Projects & Strategic Visibility]]
-- [[IT Operations & Support]]
+- [[IT Operations & Support (Overview)]]
